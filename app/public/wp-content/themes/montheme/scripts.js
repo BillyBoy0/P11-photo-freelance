@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function afficherModale() {
         overlay.style.display = 'block';
         modal.style.display = 'block';
+        modal.classList.add('fadeIn');
     }
 
     // Fonction pour fermer la modale
@@ -15,17 +16,18 @@ document.addEventListener('DOMContentLoaded', function() {
         e.stopPropagation(); // Empêche la propagation de l'événement au parent (overlay)
         overlay.style.display = 'none';
         modal.style.display = 'none';
+        modal.classList.remove('fadeIn');
     }
 
     // pour afficher la modale au clic de CONTACT
     document.getElementById('menu-item-11').addEventListener('click', afficherModale);
 
-
     // fermer la modale en cliquant sur l'overlay
     overlay.addEventListener('click', fermerModale);
 
-    // Empeche que le clique sur le formulaire ferme la modale
+    // Empêche que le clic sur le formulaire ferme la modale
     modal.addEventListener('click', function(e) {
         e.stopPropagation();
     });
 });
+
