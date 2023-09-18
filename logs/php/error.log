@@ -1,0 +1,5 @@
+[11-Sep-2023 17:02:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 1
+[11-Sep-2023 17:02:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Sep-2023 17:02:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[13-Sep-2023 09:32:40 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[15-Sep-2023 10:03:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-customize-widgets.php on line 905
