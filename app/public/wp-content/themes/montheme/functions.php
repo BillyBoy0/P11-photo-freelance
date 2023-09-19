@@ -24,3 +24,15 @@ function enqueue_custom_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
+
+
+// Pour que mes articles photos arrivent sur le template adapté
+
+function custom_single_template($template) {
+    if (is_singular('photo')) {
+        $template = locate_template(array('single-photos.php'));
+    }
+    return $template;
+}
+
+add_filter('template_include', 'custom_single_template');

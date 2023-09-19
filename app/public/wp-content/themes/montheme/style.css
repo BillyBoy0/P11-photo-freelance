@@ -105,6 +105,8 @@ footer ul {
 .wpcf7 input, .wpcf7 textarea {
     border-radius: 6px;
     border: 1px solid #B8BBC2;
+    resize: none;
+
 
 }
 
