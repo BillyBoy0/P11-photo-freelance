@@ -36,3 +36,14 @@ function custom_single_template($template) {
 }
 
 add_filter('template_include', 'custom_single_template');
+
+
+
+
+function get_reference_from_custom_fields($post_id) {
+  // Obtenir la valeur de la custom field "reference"
+  $reference = get_post_meta($post_id, 'reference', true);
+
+  // Retourner la valeur de la custom field "reference"
+  return $reference;
+}

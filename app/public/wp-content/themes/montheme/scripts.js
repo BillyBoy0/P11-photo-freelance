@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // pour afficher la modale au clic de CONTACT
     document.getElementById('menu-item-11').addEventListener('click', afficherModale);
+    
+    //acvtiver le bouton contact seulement si il existe (bouton pour la page single-photo.php)
+    var boutonContact = document.getElementById('contact-btn');   
+    if (boutonContact) {
+        boutonContact.addEventListener('click', afficherModale);
+    }
 
     // fermer la modale en cliquant sur l'overlay
     overlay.addEventListener('click', fermerModale);
@@ -30,4 +36,5 @@ document.addEventListener('DOMContentLoaded', function() {
         e.stopPropagation();
     });
 });
+
 

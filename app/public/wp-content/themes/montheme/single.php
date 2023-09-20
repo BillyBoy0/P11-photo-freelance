@@ -28,7 +28,8 @@ if (have_posts()) :
         </div>
         <?php
     endwhile;
-endif;
+endif;  
+
 
 get_footer(); // Ajoutez cet appel si vous souhaitez inclure le pied de page de votre thème
 ?>

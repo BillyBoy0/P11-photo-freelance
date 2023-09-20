@@ -24,7 +24,48 @@ if (have_posts()) :
         </div>
         <?php
     endwhile;
-endif;
+endif; ?>
 
-get_footer(); // Ajoutez cet appel si vous souhaitez inclure le pied de page de votre thème
+
+<section class="navigation-banner">
+    <div class="interested-contact">
+        <p>Cette photo vous intéresse ?</p>
+        <button id="contact-btn">Contact</button>
+    </div>
+    <div class="navigation-photos">
+        <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'thumbnail'); ?>" alt="">
+        <div class="arrow-navigation">
+            <?php 
+            $prev_post = get_previous_post();
+            if (!empty($prev_post)) :            ?>
+                <a href="<?php echo get_permalink($prev_post->ID); ?>" class="arrow-left" >←</a>
+            <?php endif; ?>
+
+            <?php
+            $next_post = get_next_post();
+            if (!empty($next_post)) :            ?>
+              <a href="<?php echo get_permalink($next_post->ID); ?>" class="arrow-right" >→</a>
+            <?php endif; ?>
+
+   
+        </div>
+    </div>
+</section>
+
+<section class="featured-images">
+    <h2>VOUS AIMEREZ AUSSI</h2>
+    <div class="featured-images-list"></div>
+    <button>Toutes les photos</button>
+</section>
+
+
+
+
+<script type="text/javascript">                //Ajoute la reference dans le formulaire automatiquement
+    jQuery(document).ready(function($) {
+        $("#reference").val("<?php echo get_field('reference'); ?>");
+    });
+</script>
+
+<?php get_footer(); 
 ?>
