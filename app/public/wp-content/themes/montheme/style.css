@@ -31,6 +31,15 @@ Header, footer {
     font-family: 'Space Mono', monospace;
 }
 
+h1 {
+    font-family: 'Space Mono';
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    color: transparent; 
+    -webkit-text-stroke: 2px white;
+}
+
 
 
 /* MENUS */
@@ -76,6 +85,14 @@ footer ul {
 footer {
     border-top: 1px solid black
 }
+
+
+
+
+
+
+
+
 
 
 /* MODALE CONTACT */
@@ -139,6 +156,60 @@ footer {
     background: #D8D8D8;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.02);
 }
+
+
+
+
+
+
+
+/*  FRONT PAGE  */
+
+.banner {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    height: 962px;
+    max-width: 1440px;
+
+}
+
+.banner img {
+    width: 100vw;
+    height: 962px;
+    object-fit: cover;
+    max-width: 1440px;
+
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
