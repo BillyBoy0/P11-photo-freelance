@@ -47,3 +47,5 @@ function get_reference_from_custom_fields($post_id) {
   // Retourner la valeur de la custom field "reference"
   return $reference;
 }
+
+

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">   
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <?php wp_head(); ?>

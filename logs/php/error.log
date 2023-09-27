@@ -7,3 +7,45 @@
 [18-Sep-2023 19:05:48 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single.php on line 27
 [20-Sep-2023 13:07:24 UTC] PHP Fatal error:  Cannot redeclare get_post_custom() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post.php:2609) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 48
 [20-Sep-2023 13:07:24 UTC] PHP Fatal error:  Cannot redeclare get_post_custom() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post.php:2609) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 48
+[23-Sep-2023 13:02:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "remove_thumbnail_dimensions" not found or invalid function name in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<img width="170...', Array)
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post-thumbnail-template.php(219): apply_filters('post_thumbnail_...', '<img width="170...', 66, 52, 'post-thumbnail', '')
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post-thumbnail-template.php(92): get_the_post_thumbnail(Object(WP_Post), 'post-thumbnail', '')
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php(14): the_post_thumbnail()
+#4 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\cyrno\\...')
+#5 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-blog-header.php(19): require_once('C:\\Users\\cyrno\\...')
+#6 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\index.php(17): require('C:\\Users\\cyrno\\...')
+#7 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 312
+[23-Sep-2023 13:05:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "remove_thumbnail_dimensions" not found or invalid function name in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<img width="170...', Array)
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post-thumbnail-template.php(219): apply_filters('post_thumbnail_...', '<img width="170...', 66, 52, 'post-thumbnail', '')
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\post-thumbnail-template.php(92): get_the_post_thumbnail(Object(WP_Post), 'post-thumbnail', '')
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php(14): the_post_thumbnail()
+#4 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\cyrno\\...')
+#5 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-blog-header.php(19): require_once('C:\\Users\\cyrno\\...')
+#6 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\index.php(17): require('C:\\Users\\cyrno\\...')
+#7 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 312
+[24-Sep-2023 11:50:55 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 70
+[24-Sep-2023 11:56:25 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 67
+[24-Sep-2023 11:57:28 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 11:57:36 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 11:57:49 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 11:58:02 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 11:58:06 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 12:04:10 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 12:04:33 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 12:08:06 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:08:26 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 170
+[24-Sep-2023 12:08:45 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:09:22 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:10:08 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:48:39 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:49:02 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 149
+[24-Sep-2023 12:51:49 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 168
+[25-Sep-2023 10:27:38 UTC] PHP Warning:  Undefined variable $term_ids in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 20
+[26-Sep-2023 09:52:10 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 84
+[26-Sep-2023 13:25:06 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 98
