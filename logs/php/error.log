@@ -49,3 +49,453 @@ Stack trace:
 [25-Sep-2023 10:27:38 UTC] PHP Warning:  Undefined variable $term_ids in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 20
 [26-Sep-2023 09:52:10 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 84
 [26-Sep-2023 13:25:06 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 98
+[29-Sep-2023 09:42:40 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 84
+[29-Sep-2023 10:43:50 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 90
+[29-Sep-2023 15:29:30 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 22
+[29-Sep-2023 17:29:46 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 52
+[29-Sep-2023 17:29:46 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 54
+[29-Sep-2023 17:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php:54
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-blog-header.php(19): require_once('C:\\Users\\cyrno\\...')
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\index.php(17): require('C:\\Users\\cyrno\\...')
+#3 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 54
+[03-Oct-2023 08:18:37 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[03-Oct-2023 15:09:39 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[03-Oct-2023 15:11:57 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[03-Oct-2023 16:15:18 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:16:51 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:16:56 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:16:57 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:16:58 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:17:00 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:17:01 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:17:14 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[03-Oct-2023 16:17:44 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:20:47 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:22:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_term_list(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13 and at least 2 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\category-template.php:1338
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php(13): get_the_term_list('categorie')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template.php(787): require('C:\\Users\\cyrno\\...')
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template.php(720): load_template('C:\\Users\\cyrno\\...', false, Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#4 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php(112): get_template_part('template-parts/...')
+#5 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\cyrno\\...')
+#6 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-blog-header.php(19): require_once('C:\\Users\\cyrno\\...')
+#7 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\index.php(17): require('C:\\Users\\cyrno\\...')
+#8 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\category-template.php on line 1338
+[03-Oct-2023 16:24:35 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:24:49 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:29:08 UTC] PHP Warning:  Undefined variable $post_ID in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13
+[03-Oct-2023 16:29:08 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:30:51 UTC] PHP Warning:  Array to string conversion in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13
+[03-Oct-2023 16:30:51 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:33:54 UTC] PHP Warning:  Array to string conversion in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13
+[03-Oct-2023 16:33:54 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:33:59 UTC] PHP Warning:  Array to string conversion in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13
+[03-Oct-2023 16:33:59 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:34:30 UTC] PHP Warning:  Array to string conversion in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\template-parts\photo_block.php on line 13
+[03-Oct-2023 16:34:30 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[03-Oct-2023 16:34:38 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[05-Oct-2023 11:01:16 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:01:16 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:01:16 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:01:16 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:20 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:20 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:20 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:20 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:27 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:27 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:27 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:02:27 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:04:34 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:04:34 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:04:34 UTC] PHP Warning:  Attempt to read property "slug" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:04:34 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 35
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 36
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 50
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 50
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "slug" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 50
+[05-Oct-2023 11:32:50 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 50
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:42:48 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:43:00 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:43:00 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:43:00 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:43:00 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:47:58 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:47:58 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:47:58 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 08:47:58 UTC] PHP Warning:  Undefined array key "tri-categorie" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\front-page.php on line 37
+[07-Oct-2023 14:43:20 UTC] PHP Fatal error:  Cannot redeclare apply_filters_ajax() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:89) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 175
+[07-Oct-2023 14:43:21 UTC] PHP Fatal error:  Cannot redeclare apply_filters_ajax() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:89) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 175
+[01-Nov-2023 17:44:29 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[02-Nov-2023 11:33:43 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[02-Nov-2023 11:39:30 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[02-Nov-2023 11:40:12 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[02-Nov-2023 20:53:02 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[02-Nov-2023 20:53:41 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[04-Nov-2023 11:43:53 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[04-Nov-2023 11:52:19 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 88
+[04-Nov-2023 11:52:19 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 88
+[04-Nov-2023 11:52:26 UTC] PHP Parse error:  Unmatched '}' in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 94
+[04-Nov-2023 11:52:26 UTC] PHP Parse error:  Unmatched '}' in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 94
+[04-Nov-2023 12:58:22 UTC] Catégorie récupérée : categorie
+[04-Nov-2023 12:58:24 UTC] Catégorie récupérée : categorie
+[04-Nov-2023 13:03:10 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 87
+[04-Nov-2023 13:03:10 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 87
+[06-Nov-2023 13:37:32 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[06-Nov-2023 13:37:43 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[07-Nov-2023 14:35:22 UTC] PHP Fatal error:  Cannot redeclare filtre_photos() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:73) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 147
+[07-Nov-2023 14:35:22 UTC] PHP Fatal error:  Cannot redeclare filtre_photos() (previously declared in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:73) in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 147
+[07-Nov-2023 14:42:09 UTC] PHP Parse error:  Unmatched '}' in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 153
+[07-Nov-2023 14:42:09 UTC] PHP Parse error:  Unmatched '}' in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 153
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:51 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $taxonomy in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 127
+[07-Nov-2023 16:59:54 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:00:14 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 128
+[07-Nov-2023 17:00:14 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 128
+[07-Nov-2023 17:00:14 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 128
+[07-Nov-2023 17:04:34 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:34 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:34 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:39 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:39 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:39 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:42 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:42 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:43 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:44 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:44 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:44 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:48 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:48 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:04:48 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:10:15 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:15 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:15 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Warning:  Undefined variable $photo_query in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:148
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 148
+[07-Nov-2023 17:15:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:15:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function process_params(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:119
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): process_params('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 17:16:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:16:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:16:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:16:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:16:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:16:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function combined_filters(), 1 passed in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 3 expected in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php:118
+Stack trace:
+#0 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(310): combined_filters('')
+#1 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_combine...')
+#4 {main}
+  thrown in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 118
+[07-Nov-2023 17:17:15 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:17:15 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:17:15 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:19:37 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:19:38 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:19:42 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:19:46 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:19:48 UTC] PHP Warning:  Undefined variable $term in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 129
+[07-Nov-2023 17:55:40 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 17:55:55 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 17:58:39 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 17:58:49 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 17:59:02 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 17:59:09 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 19:05:52 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 19:06:51 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 19:06:54 UTC] PHP Warning:  Undefined array key "page" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 200
+[07-Nov-2023 19:08:11 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 19:08:12 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 19:09:39 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 19:09:40 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 19:09:42 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[07-Nov-2023 19:12:19 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 119
+[08-Nov-2023 17:02:13 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[08-Nov-2023 17:03:41 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[08-Nov-2023 17:14:06 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[08-Nov-2023 17:14:16 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[08-Nov-2023 17:14:22 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[08-Nov-2023 17:17:25 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[09-Nov-2023 12:50:10 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 14:42:07 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 15:11:33 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 15:11:38 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 15:11:38 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 15:11:48 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[09-Nov-2023 15:11:50 UTC] PHP Warning:  Undefined array key "currentPage" in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\functions.php on line 117
+[13-Nov-2023 13:17:41 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 134
+[14-Nov-2023 14:24:18 UTC] PHP Warning:  Undefined variable $all_photos in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\header.php on line 5
+[14-Nov-2023 14:24:18 UTC] PHP Warning:  Attempt to read property "posts" on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\header.php on line 5
+[14-Nov-2023 14:24:43 UTC] PHP Warning:  Undefined variable $all_photos in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\header.php on line 4
+[14-Nov-2023 14:24:43 UTC] PHP Warning:  Attempt to read property "posts" on null in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\header.php on line 4
+[15-Nov-2023 00:23:38 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[15-Nov-2023 00:24:14 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 148
+[15-Nov-2023 00:38:54 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:39:05 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:39:20 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:40:42 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:41:51 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:42:52 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:51:23 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:54:02 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:54:31 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:55:42 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:55:56 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:56:28 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:56:35 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 00:59:02 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:15:04 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:28:55 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:29:14 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:29:26 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:30:07 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:30:15 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:30:33 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:35:15 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[15-Nov-2023 01:35:56 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 137
+[16-Nov-2023 21:40:01 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:42:55 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:43:10 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:44:31 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:45:52 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:46:07 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:46:20 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:46:35 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:47:47 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:48:17 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:49:47 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:49:55 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:50:03 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:50:55 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:09 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:18 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:25 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:40 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:50 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:51:59 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:52:15 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:52:21 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:52:27 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:52:48 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:53:21 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:53:31 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:53:42 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:53:59 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:54:17 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:54:19 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:54:44 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:54:52 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:55:04 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 21:55:48 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139
+[16-Nov-2023 22:35:37 UTC] PHP Warning:  Attempt to read property "ID" on string in C:\Users\cyrno\Documents\Local Sites\p11-photographe-freelance\app\public\wp-content\themes\montheme\single-photos.php on line 139

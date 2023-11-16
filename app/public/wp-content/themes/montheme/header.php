@@ -18,15 +18,22 @@
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo">
     </a>  
 
-    <?php 
-      wp_nav_menu( 
-          array( 
-            'theme_location' => 'main', 
-            'container' => 'ul', // afin d'éviter d'avoir une div autour par défaut
-            'menu_class' => 'site__header__menu', // ma classe personnalisée 
-          ) 
-      ); 
-    ?>
+
+<nav id="nav">
+  <?php 
+    wp_nav_menu( 
+        array( 
+          'theme_location' => 'main', 
+          'container' => 'ul', // afin d'éviter d'avoir une div autour par défaut
+          'menu_class' => 'site__header__menu', // ma classe personnalisée 
+        ) 
+    ); 
+  ?>
+  <div id="icons"></div>
+</nav>
+
+
+
   </header>
     
     <?php wp_body_open(); ?>

@@ -1,0 +1,137 @@
+
+
+.bloc-filtres {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filtres-gauche {
+    display: flex;
+    width: 48%;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.filtres-droite {
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+}
+
+
+
+.dropdown-list{
+	position: relative
+}
+
+.selected-option{
+    display: flex;
+	border-radius: 8px;
+    border: 1.3px solid #B8BBC2;
+    width: 12vw;
+    padding: 0 18px;
+    height: 42px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    min-width: 140px;
+    max-width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select-clicked {
+    border-radius: 8px;
+    border: 1.3px solid #215AFF;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.selected-option p {
+	margin: 0;
+}
+
+
+
+
+.select-option-card{
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: 0.36px;
+	position: absolute;
+	display: none; 
+	z-index: 10;
+    text-transform: initial;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    border-radius: 0 0 8px 8px;
+}
+
+.select-option-card ul li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.select-option-card ul{
+	list-style-type: none;
+	margin: 0;
+    padding-inline-start: 0px;
+    border: 0 0 8px 8px;
+
+}
+
+.select-option-card ul li{
+	padding: 11px 18px;
+}
+
+.select-option-card ul li:hover{
+background: #FFD6D6;
+color: black;
+}
+
+.select-option-card ul li:active{
+background: #FE5858;
+}
+
+.selected-category {
+    color: #fff;
+    background-color: #E00000;
+}
+
+
+@media (max-width: 750px) {
+
+    .banner {
+        margin-bottom: 52px!important;
+
+    }
+
+    .bloc-filtres {
+        flex-direction: column;
+        gap: 35px;
+
+    }
+
+    .filtres-gauche {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .filtres-droite {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}

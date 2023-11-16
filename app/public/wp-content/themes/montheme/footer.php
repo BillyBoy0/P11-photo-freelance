@@ -12,6 +12,7 @@
 <?php wp_footer(); ?>
 
 <?php get_template_part('template-parts/popup-contact'); ?>
+<?php get_template_part('template-parts/lightbox'); ?>
 
 
 </body>
